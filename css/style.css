@@ -1640,7 +1640,6 @@ ul {
 .testimonials {
   position: relative;
   width: 100%;
-  background-color: #15141a;
   background: url("../images/slider_bglitle_image.png");
   background-size: cover; }
 
@@ -2141,14 +2140,15 @@ ul {
 .map__inner {
   position: relative;
   z-index: -1;
-  transform: translateY(-108px); }
+  transform: translateY(-108px);
+  max-height: 635px; }
 
 .footer {
   max-height: 500px; }
 
 .footer__bottom {
   background: #15141a;
-  transform: translateY(-270px);
+  transform: translateY(-264px);
   padding-top: 55px;
   padding-bottom: 27px; }
 

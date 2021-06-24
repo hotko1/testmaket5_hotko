@@ -910,6 +910,7 @@ ul{
   position: relative;
   z-index: -1;
   transform: translateY(-108px);
+  max-height: 635px;
 }
 
 .footer{
@@ -918,7 +919,7 @@ ul{
 
 .footer__bottom{
   background: #15141a;
-  transform: translateY(-270px);
+  transform: translateY(-264px);
   padding-top: 55px;
   padding-bottom: 27px;
 }
